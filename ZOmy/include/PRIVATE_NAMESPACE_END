@@ -1,0 +1,34 @@
+#ifdef PRIVATE_NAMESPACE_8
+#undef PRIVATE_NAMESPACE_8
+#else
+	#ifdef PRIVATE_NAMESPACE_7
+	#undef PRIVATE_NAMESPACE_7
+	#else
+		#ifdef PRIVATE_NAMESPACE_6
+		#undef PRIVATE_NAMESPACE_6
+		#else
+			#ifdef PRIVATE_NAMESPACE_5
+			#undef PRIVATE_NAMESPACE_5
+			#else
+				#ifdef PRIVATE_NAMESPACE_4
+				#undef PRIVATE_NAMESPACE_4
+				#else
+					#ifdef PRIVATE_NAMESPACE_3
+					#undef PRIVATE_NAMESPACE_3
+					#else
+						#ifdef PRIVATE_NAMESPACE_2
+						#undef PRIVATE_NAMESPACE_2
+						#else
+							#ifdef PRIVATE_NAMESPACE_1
+							#undef PRIVATE_NAMESPACE_1
+							}
+							#else
+							#error Private Namespace Mismatch!
+							#endif
+						#endif
+					#endif
+				#endif
+			#endif
+		#endif
+	#endif
+#endif

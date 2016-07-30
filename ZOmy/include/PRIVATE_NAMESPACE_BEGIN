@@ -1,0 +1,35 @@
+#ifndef PRIVATE_NAMESPACE_1
+#define PRIVATE_NAMESPACE_1
+	namespace PRIVATE_NAME
+	{
+#else
+	#ifndef PRIVATE_NAMESPACE_2
+	#define PRIVATE_NAMESPACE_2
+	#else
+		#ifndef PRIVATE_NAMESPACE_3
+		#define PRIVATE_NAMESPACE_3
+		#else
+			#ifndef PRIVATE_NAMESPACE_4
+			#define PRIVATE_NAMESPACE_4
+			#else
+				#ifndef PRIVATE_NAMESPACE_5
+				#define PRIVATE_NAMESPACE_5
+				#else
+					#ifndef PRIVATE_NAMESPACE_6
+					#define PRIVATE_NAMESPACE_6
+					#else
+						#ifndef PRIVATE_NAMESPACE_7
+						#define PRIVATE_NAMESPACE_7
+						#else
+							#ifndef PRIVATE_NAMESPACE_8
+							#define PRIVATE_NAMESPACE_8
+							#else
+							#error Private Namespace Over Nested!
+							#endif
+						#endif
+					#endif
+				#endif
+			#endif
+		#endif
+	#endif
+#endif
